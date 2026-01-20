@@ -9,7 +9,7 @@ import before3 from '../images/WhatsApp Image 2026-01-18 at 21.09.57.jpeg'
 import before4 from '../images/WhatsApp Image 2026-01-18 at 21.10.01 (1).jpeg'
 import before5 from '../images/WhatsApp Image 2026-01-18 at 21.10.01.jpeg'
 import after from '../images/WhatsApp Image 2026-01-18 at 21.10.02 (1).jpeg'
-import after1 from '../images/WhatsApp Image 2026-01-18 at 21.10.02.jpeg'
+import after1 from '../images/WhatsApp Image 2026-01-20 at 3.13.54 PM.jpeg'
 import after2 from '../images/WhatsApp Image 2026-01-18 at 21.10.03.jpeg'
 import after3 from '../images/WhatsApp Image 2026-01-18 at 21.10.04.jpeg'
 import after4 from '../images/WhatsApp Image 2026-01-18 at 21.10.05.jpeg'
@@ -20,7 +20,7 @@ import after7 from '../images/WhatsApp Image 2026-01-18 at 21.30.34.jpeg'
 function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
 
-  // BEFORE images array - showing initial state
+
   const beforeImages = [
     {
       id: 1,
@@ -60,8 +60,8 @@ function Gallery() {
     {
       id: 6,
       image: before5,
-      title: 'Radial stockpile conveyor',
-      description: 'Conveyor system requiring cleaning and maintenance before restoration.',
+      title: 'Gate Motor Installation in Progress',
+      description: 'This photo shows one of our gate motor installations in progress. The old system has been removed, and all components are being prepared for a new, reliable motor installation. You can see the new gate motor unit, control box, wiring, tools, and power equipment laid out on site',
       location: 'Matla Power Station'
     }
   ];
@@ -77,8 +77,8 @@ function Gallery() {
     {
       id: 2,
       image: after1,
-      title: 'Stairwell and Floor Area',
-      description: 'The floor area restored to a clean and safe condition with all surfaces cleared, looking refreshed and well-maintained.',
+      title: 'Beam Sensor Installation',
+      description: `The installation of infrared safety beams along the driveway and near the gate area. These beams are an important part of an automated gate system. They work by sending an invisible infrared signal between two sensors. If a person, car, or object breaks the beam while the gate is closing, the gate will stop and reverse to prevent accidents or damage.`,
       location: 'Matla Power Station'
     },
     {

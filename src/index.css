@@ -584,6 +584,9 @@ input[type="submit"] {
   color: white;
   font-size: 13px;
 }
+.gallery-section {
+  margin-top: 2px;
+}
 .projects-container, .gallery-container {
   margin-top: 7em;
   padding: 20px 0;

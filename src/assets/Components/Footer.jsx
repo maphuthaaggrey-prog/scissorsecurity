@@ -1,6 +1,4 @@
-import location from '../icons/location_on.png'
-import phone from '../icons/Phone.png'
-import email from '../icons/mail.png'
+
 import { useState, useEffect } from 'react'
 const Footer = () => {
 

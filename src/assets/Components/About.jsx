@@ -1,4 +1,4 @@
-import aboutImage from '../images/WhatsApp Image 2026-01-18 at 21.30.34.jpeg'
+import aboutImage from '../images/founder.jpeg'
 import mission from '../images/WhatsApp Image 2026-01-18 at 21.30.34.jpeg'
 const About = () => {
     return (
